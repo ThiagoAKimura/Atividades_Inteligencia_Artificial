@@ -1,0 +1,43 @@
+{"intents":[
+  { "tag": "saudacao",
+    "patterns":["Ola","Opa","Oi", "tudo bem"],
+    "responses": ["Oi","Olá"]
+  },
+  { "tag": "despedida",
+    "patterns":["valeu","tchau","Obrigado","tks"],
+    "responses": ["Até breve","Falou"]
+  },
+  { "tag": "data_prova",
+    "patterns":["Quando sera a prova?","A prova será em que dia?"],
+    "responses": ["no dia 26"]
+  },
+  { "tag": "objetivos",
+    "patterns":["quais sao os objetivos da pipe?", "me fale os objetivos da pipe"],
+    "responses": ["Os objetivos são: \n 1. Apoiar a pesquisa em ciência e tecnologia como instrumento para promover a inovação tecnológica, promover o desenvolvimento empresarial e aumentar a competitividade das pequenas empresas. \n 2. Incrementar a contribuição da pesquisa para o desenvolvimento econômico e social.\n 3. Induzir o aumento do investimento privado em pesquisa tecnológica.\n 4. Possibilitar que as empresas se associem a pesquisadores do ambiente acadêmico em projetos de pesquisa visando à inovação tecnológica.\n 5. Contribuir para a formação e o desenvolvimento de núcleos de desenvolvimento tecnológico nas empresas e para o emprego de pesquisadores no mercado."]
+  },
+  { "tag": "explica_projeto",
+    "patterns":["O que é pipe??","explique o que é o pipe"],
+    "responses": ["O Programa Pesquisa Inovativa em Pequenas Empresas da FAPESP destina-se a apoiar a execução de pesquisa científica e tecnológica em pequenas empresas no Estado de São Paulo. Seus objetivos são apoiar a pesquisa em ciência e tecnologia como instrumento para promover a inovação tecnológica e o desenvolvimento empresarial, aumentar a competitividade das pequenas empresas, possibilitar que as empresas se associem a pesquisadores do ambiente acadêmico em projetos de pesquisa visando à inovação tecnológica e contribuir para a formação e o desenvolvimento de núcleos de desenvolvimento tecnológico nas empresas e para o emprego de pesquisadores no mercado de trabalho empresarial criando uma cultura permanente de inovação."]
+  },
+  { "tag": "etapas_programa",
+    "patterns":["há diferentes etapa do programa?", "tem diferentes etapas?", "que etapas tem no programa?"],
+    "responses": ["a) Fase 1: é destinada à verificação da viabilidade técnico-científica da proposta, (duração de até 9 meses e orçamento de até R$ 300.000, mais Reserva Técnica e Benefícios Complementares);\n b) Fase 2: destina-se à execução da pesquisa propriamente dita (duração de até 24 meses e orçamento de até R$ 1.500.000, mais Reserva Técnica e Benefícios Complementares);\n c) PIPE Invest: Aceleração da chegada ao mercado de Projetos da Fase 2, quando houver terceira parte interessada (duração de até 24 meses e orçamento de até R$ 1.500.000);\n d) Fase 3: desenvolvimento comercial e industrial dos produtos, processos, sistemas e/ou serviços inovadores obtidos a partir de pesquisas anteriores realizadas pela pequena empresa sem o apoio da FAPESP ou a partir de pesquisa apoiada no âmbito do PIPE."]
+  },
+  { "tag": "fases",
+    "patterns":["posso ir direto para a fase?", "a fase 1 e obrigatoria?"],
+    "responses": ["A empresa pode submeter uma proposta à Fase 2 Direta. Nesse caso é fundamental demonstrar que a viabilidade técnica da pesquisa já foi demonstrada; para tanto é fundamental apresentar um ótimo documento de “Justificativa para a Fase 2 Direta”."]
+  },
+  { "tag": "bolsasTT1-3",
+    "patterns":["O que sao bolsas TT-1,TT-2,TT-3?", "explique o que sao as bolsas TT-1, TT-2 e TT-3?"],
+    "responses": ["São bolsas de Treinamento Técnico que têm por objetivo treinar e aperfeiçoar alunos de cursos técnicos, de nível médio e superior e de recém-formados, visando à sua futura incorporação à equipe de P&D da empresa. Para cada bolsa solicitada é fundamental a apresentação de um plano de trabalho individual conforme descrito em fapesp.br/tt."]
+  },
+  { "tag": "bolsasTT4-5",
+  "patterns":["O que sao bolsas TT-4, TT-4A, TT5?", "explique o que sao as bolsas TT-4, TT-4A e TT-5?"],
+  "responses": ["São bolsas de Treinamento Técnico destinadas a profissionais com formação altamente especializada, para desenvolver atividades técnicas complexas junto ao projeto de pesquisa. Para cada bolsa solicitada é fundamental a apresentação de um plano de trabalho individual de 2 páginas, detalhando tecnicamente as tarefas a serem realizadas conforme descrito em fapesp.br/tt. O tempo de experiência do candidato é contado após a conclusão da graduação."]
+  },
+  { "tag": "emprestimo",
+  "patterns":["O apoio da FAPESP e um imprestimo?", "o apoio e de forma de emprestimo?"],
+  "responses": ["O apoio da FAPESP não é realizado na forma de empréstimo."]
+  }
+]
+}
