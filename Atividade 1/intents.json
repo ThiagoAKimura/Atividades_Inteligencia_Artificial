@@ -36,7 +36,7 @@
   "responses": ["São bolsas de Treinamento Técnico destinadas a profissionais com formação altamente especializada, para desenvolver atividades técnicas complexas junto ao projeto de pesquisa. Para cada bolsa solicitada é fundamental a apresentação de um plano de trabalho individual de 2 páginas, detalhando tecnicamente as tarefas a serem realizadas conforme descrito em fapesp.br/tt. O tempo de experiência do candidato é contado após a conclusão da graduação."]
   },
   { "tag": "emprestimo",
-  "patterns":["O apoio da FAPESP e um imprestimo?", "o apoio e de forma de emprestimo?"],
+  "patterns":["O apoio da FAPESP e um emprestimo?", "o apoio e de forma de emprestimo?"],
   "responses": ["O apoio da FAPESP não é realizado na forma de empréstimo."]
   }
 ]
