@@ -1,0 +1,36 @@
+@RELATION BancoDever
+@ATTRIBUTE idade integer
+@ATTRIBUTE saldo integer
+@ATTRIBUTE situacao {Devendo, Normal}
+
+@DATA
+25,1200,Normal
+34,-500,Devendo
+28,3000,Normal
+40,1500,Normal
+22,-300,Devendo
+19,1000,Normal
+30,200,Devendo
+35,1800,Normal
+27,-100,Devendo
+32,2500,Normal
+21,-1500,Devendo
+29,5000,Normal
+23,0,Normal
+24,-700,Devendo
+26,3500,Normal
+31,-200,Devendo
+33,6000,Normal
+38,-900,Devendo
+20,1200,Normal
+36,-450,Devendo
+41,2000,Normal
+28,150,Devendo
+27,2750,Normal
+45,-1000,Devendo
+39,800,Normal
+42,950,Normal
+24,-1200,Devendo
+22,3400,Normal
+37,-50,Devendo
+29,4500,Normal
